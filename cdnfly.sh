@@ -81,14 +81,6 @@ check_sys(){
 }
 
 # 安装依赖
-install_depend() {
-    if check_sys sysRelease ubuntu;then
-        apt-get update
-        apt-get -y install wget python-minimal
-    elif check_sys sysRelease centos;then
-        yum install -y wget python
-    fi    
-}
 
 get_sys_ver() {
 cat > /tmp/sys_ver.py <<EOF
@@ -162,7 +154,6 @@ sync_time(){
 
 }
 
-install_depend
 sync_time
 
 # 解析命令行参数
