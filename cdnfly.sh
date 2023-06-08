@@ -19,7 +19,7 @@ check_sys(){
             packageSupport=true
 
         elif cat /etc/issue | grep -q -E -i "debian";then
-            release="debian"
+            release="ubuntu"
             systemPackage="apt"
             packageSupport=true
 
@@ -34,7 +34,7 @@ check_sys(){
             packageSupport=true
 
         elif cat /proc/version | grep -q -E -i "debian";then
-            release="debian"
+            release="ubuntu"
             systemPackage="apt"
             packageSupport=true
 
