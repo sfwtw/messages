@@ -205,7 +205,7 @@ else
 fi
 
 cd /opt/
-download "https://github.com/LoveesYe/cdnflydadao/raw/main/cdnfly/v5.1.13/master/$tar_gz_name" "https://github.com/LoveesYe/cdnflydadao/raw/main/cdnfly/v5.1.13/master/$tar_gz_name" "$tar_gz_name"
+download "https://github.com/LoveesYe/cdnflydadao/raw/main/cdnfly/v5.1.13/master/cdnfly-master-v5.1.13-Ubuntu-16.04.tar.gz" "https://github.com/LoveesYe/cdnflydadao/raw/main/cdnfly/v5.1.13/master/cdnfly-master-v5.1.13-Ubuntu-16.04.tar.gz" "$tar_gz_name"
 
 tar xf $tar_gz_name
 rm -rf cdnfly
