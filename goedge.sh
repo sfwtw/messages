@@ -10,9 +10,9 @@ nodeId="$2"
 secret="$3"
 
 apt update -y && apt upgrade -y
-apt install wget unzip libc6 -y
+apt install wget unzip -y
 # 下载 edge-node 压缩包并解压到 /root/goedge 目录下
-wget https://raw.githubusercontent.com/sfwtw/messages/master/edge-node-linux-amd64-community-v1.2.0.zip -O /tmp/edge-node.zip
+wget https://raw.githubusercontent.com/sfwtw/messages/master/edge-node.zip -O /tmp/edge-node.zip
 unzip /tmp/edge-node.zip -d /tmp/
 mv /tmp/edge-node /root/goedge
 
