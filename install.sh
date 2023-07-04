@@ -187,7 +187,7 @@ install_XrayR() {
     chmod +x /usr/bin/xrayr
     cd $cur_dir
     rm -f install.sh
-	content=$(cat <<EOF
+    content=$(cat <<EOF
     Log:
       Level: warning # Log level: none, error, warning, info, debug 
       AccessPath: # /etc/XrayR/access.Log
