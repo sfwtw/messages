@@ -15,7 +15,7 @@ ConnectionConfig:
 Nodes:
   - PanelType: "SSpanel" # Panel type: SSpanel, NewV2board, PMpanel, Proxypanel, V2RaySocks
     ApiConfig:
-      ApiHost: "https://www.directyun.com"
+      ApiHost: "https://www.izhi.link"
       ApiKey: "sfwtw123sfwtw123"
       NodeID: 1
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
